@@ -1,0 +1,300 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+    background-color: #252525;
+}
+
+.headingsol {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.headingsag {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 27px;
+    font-family: 'Rajdhani';
+    font-weight: 500;
+    font-size: 20px;
+    text-emphasis-color: white;
+}
+
+.bas {
+
+    font-family: 'rajdhani';
+    font-size: 25px;
+    background: url(img/banner-bg.png) no-repeat center center / cover;
+    padding: 50px 200px;
+}
+
+.foto-h1 {
+    font-weight: bolder;
+
+}
+
+.foto-h2 {
+    color: white;
+}
+
+.foto-h3 {
+    width: 500px;
+    color: white;
+}
+
+.foto-h4 {
+    border: solid 2px transparent;
+    background-color: #252525;
+    padding: 8px;
+    color: white;
+
+}
+
+.hover:hover {
+    background-color: orange;
+}
+
+.font-hover:hover {
+    color: orangered;
+    transition: color;
+    transition-duration: 500ms;
+}
+
+
+.aboutus {
+    display: flex;
+    justify-content: center;
+    margin: 10px 300px;
+}
+
+.aboutyazi {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+
+    font-size: larger;
+
+}
+
+.about-foto {
+    display: flex;
+}
+
+.about-foto1 {
+    height: 500px;
+    width: 500px;
+    margin: 100px 150px 50px 50px;
+}
+
+.aboutUsButton {
+    background-color: #252525;
+    padding: 10px;
+
+}
+
+.our-gallery {
+
+    margin: 5% 20%;
+    padding-bottom: 300px;
+
+
+}
+
+
+.our-gallery1 {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 40px;
+}
+
+.our-gallery2 {
+    display: grid;
+
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 15px;
+}
+
+.f {
+    width: 350px;
+    height: 350px;
+}
+
+.seemore {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.seemore1 {
+    background-color: #252525;
+    padding: 20px 50px;
+    font-size: 25px;
+}
+
+
+.services {
+    text-align: center;
+    background: url(img/services-bg.png) no-repeat center center / cover;
+    padding: 50px 200px;
+
+}
+
+.services-hover {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.ol {
+    background-color: orangered;
+    padding: 90px 20px;
+    transition: background-color;
+    transition-duration: 500ms;
+
+
+}
+
+.ol img {
+    width: 100px;
+    height: 100px;
+}
+
+.ol:hover {
+    background-color: white;
+
+}
+
+.ol:hover .op {
+    display: block;
+    background-color: #252525;
+    margin: 150px 100px 0 100px;
+    padding: 10px;
+}
+
+.op {
+    display: none;
+
+}
+
+
+
+
+
+.testimonial {
+    margin: 300px;
+    font-family: 'Rajdhani';
+    margin-bottom: 20px;
+
+}
+
+.testimonial h1 {
+    color: orangered;
+}
+
+
+
+.monila h2 {
+    color: orangered;
+    margin-left: 50px;
+}
+
+.testimonial ol {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.testimonial ol li {
+    background-color: orangered;
+    padding: 10px 50px;
+    list-style: none;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+.testimonial ol li:hover {
+    background-color: black;
+    transition: background-color;
+    transition-duration: 500ms;
+}
+
+
+.contactus {
+    text-align: center;
+    color: orangered;
+    font-size: larger;
+}
+
+.wrapper {
+    display: flex;
+    background: url(img/img-2.png);
+
+}
+
+.wrapper-form {
+
+    margin: 10px 30px;
+    margin-top: 60px;
+
+}
+
+.wrapper-form input,
+textarea {
+    padding: 20px 250px;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+.map {
+    padding: 50px 50px;
+}
+
+.wrapper2 {
+    display: block;
+}
+
+
+
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #252525;
+    color: white;
+    padding: 100px;
+
+}
+
+.footer-item {
+    width: 25%;
+    flex-basis: 25%;
+
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item ol {
+    list-style: none;
+}
